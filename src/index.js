@@ -26,13 +26,15 @@ import "react-datetime/css/react-datetime.css";
 
 import Hastane from "./hastane";
 import Doktor from "./doktor";
+import DH from "./doktorhastane";
 import ScrollToTop from "./components/ScrollToTop";
 
 ReactDOM.render(
   <HashRouter>
     <ScrollToTop />
-
+    <Hastane />
     <Doktor />
+    <DH />
   </HashRouter>,
   document.getElementById("root")
 );

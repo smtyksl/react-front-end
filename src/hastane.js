@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Form, Button, Table } from '@themesberg/react-bootstrap';
 const axios = require('axios');
 
-
 export default () => {
     const [data, setData] = useState([])
     const [ad, setAd] = useState(null)
